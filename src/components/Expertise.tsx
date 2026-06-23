@@ -1,30 +1,30 @@
 import { useEffect, useRef, useState } from "react"
-import { Home, Building, Armchair, Trees } from "lucide-react"
+import { Layers, Grid3x3, Sparkles, Hammer } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
 
 const expertiseAreas = [
   {
-    title: "Жилая архитектура",
-    description: "Создаем дома, которые сочетают красоту с комфортом, где каждое пространство служит и форме, и функции.",
-    icon: Home,
+    title: "Укладка паркета",
+    description: "Штучный, массивная и инженерная доска, художественная укладка «ёлочкой» и «палубой». Работаем с дубом, ясенем и экзотикой.",
+    icon: Grid3x3,
   },
   {
-    title: "Коммерческие объекты",
+    title: "Укладка ламината",
     description:
-      "Проектируем рабочие пространства, которые вдохновляют на продуктивность и отражают ценности передовых организаций.",
-    icon: Building,
+      "Быстрый и аккуратный монтаж ламината любого класса с подложкой, плинтусом и аккуратной подрезкой по периметру.",
+    icon: Layers,
   },
   {
-    title: "Дизайн интерьеров",
+    title: "Перешлифовка пола",
     description:
-      "Создаем интерьеры, которые гармонируют с архитектурной оболочкой, формируя целостный пространственный опыт.",
-    icon: Armchair,
+      "Снимаем старый слой, выводим плоскость, шпатлюем и наносим лак или масло. Возвращаем старому полу первозданный вид.",
+    icon: Sparkles,
   },
   {
-    title: "Градостроительство",
+    title: "Подготовка основания",
     description:
-      "Формируем сообщества через продуманную интеграцию общественных пространств, зданий и природных элементов.",
-    icon: Trees,
+      "Стяжка, фанера, выравнивание и устройство тёплого пола под покрытие. Делаем правильную базу для долгого срока службы.",
+    icon: Hammer,
   },
 ]
 
@@ -59,12 +59,12 @@ export function Expertise() {
         <div className="max-w-3xl mb-20">
           <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши услуги</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-            <HighlightedText>Экспертиза</HighlightedText>, отточенная
+            <HighlightedText>Мастерство</HighlightedText>, проверенное
             <br />
-            практикой
+            годами
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Каждый проект опирается на десятилетия совокупного опыта, создавая архитектуру, которая одновременно инновационна и вневременна.
+            Берёмся за весь цикл работ с полом — от подготовки основания до финишного покрытия. Делаем ровно, чисто и надолго.
           </p>
         </div>
 
