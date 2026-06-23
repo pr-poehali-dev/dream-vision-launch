@@ -12,11 +12,11 @@ const projects = [
   },
   {
     id: 2,
-    title: "Ламинат под дерево",
-    category: "Укладка ламината",
+    title: "Укладка террасной доски",
+    category: "Террасная доска",
     location: "Загородный дом, 120 м²",
     year: "2023",
-    image: "/images/hously-2.png",
+    image: "https://cdn.poehali.dev/projects/1217ed65-88cc-409e-96ee-8322a5f64a63/bucket/9186294b-cf7e-49b3-92f2-7fa136be951e.jpg",
   },
   {
     id: 3,
