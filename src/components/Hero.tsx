@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import { ArrowDown } from "lucide-react"
 
-const BG_IMAGE = "https://cdn.poehali.dev/projects/1217ed65-88cc-409e-96ee-8322a5f64a63/bucket/562e9c95-5081-44d6-9c2d-42de8f911905.jpg"
+const BG_IMAGE = "https://cdn.poehali.dev/projects/1217ed65-88cc-409e-96ee-8322a5f64a63/bucket/bbf3e4bd-35fb-4902-88c6-5b5969deac45.jpg"
 
 export function Hero() {
   const contentRef = useRef<HTMLDivElement>(null)
