@@ -137,15 +137,13 @@ export function Hero() {
         }}
       >
         <div className="mb-72 md:mb-60 lg:mb-80">
-          <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mb-0">{"Укладка паркета и ламината"}</p>
-
           <h1
             ref={titleRef}
             className="text-7xl font-medium text-balance text-center text-white mb-0 tracking-tight leading-[0.9] lg:text-8xl"
           >
-            {"Идеальный пол"}
+            {"Паркетные работы в Крыму"}
             <br />
-            <span className="text-orange-200">{"в вашем доме"}</span>
+            <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mt-4">{"Идеальный пол в вашем доме"}</p>
           </h1>
         </div>
       </div>
