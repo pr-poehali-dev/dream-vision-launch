@@ -114,7 +114,7 @@ export function Hero() {
         style={{ willChange: "transform, opacity", transition: "none" }}
       >
         <div className="text-center">
-          <p className="text-sm tracking-[0.3em] uppercase text-center text-amber-200 mb-4 drop-shadow-lg">
+          <p className="text-sm tracking-[0.3em] uppercase text-center text-white mb-4 drop-shadow-lg">
             {"Укладка паркета и ламината"}
           </p>
           <h1
@@ -123,7 +123,7 @@ export function Hero() {
           >
             {"Паркетные работы в Крыму"}
           </h1>
-          <p className="text-sm tracking-[0.3em] uppercase text-center text-amber-200 mt-6 font-normal drop-shadow-lg">
+          <p className="text-sm tracking-[0.3em] uppercase text-center text-white mt-6 font-normal drop-shadow-lg">
             {"Идеальный пол в вашем доме"}
           </p>
         </div>
