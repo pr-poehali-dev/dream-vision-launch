@@ -5,8 +5,13 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="md:col-span-2">
-            <a href="/" className="inline-block mb-6 text-xl font-medium tracking-tight">
-              ПаркетМастер
+            <a href="/" className="inline-flex items-center gap-2 mb-6 text-xl font-medium tracking-tight">
+              <svg width="28" height="20" viewBox="0 0 3 2" className="rounded-sm flex-shrink-0">
+                <rect width="3" height="0.667" y="0" fill="#003DA5"/>
+                <rect width="3" height="0.667" y="0.667" fill="#FFFFFF"/>
+                <rect width="3" height="0.667" y="1.333" fill="#E4003A"/>
+              </svg>
+              Паркетные работы в Крыму
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Укладка паркета, ламината и перешлифовка полов. Небольшая команда мастеров, которая работает на совесть.
@@ -65,7 +70,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 ПаркетМастер. Все права защищены.</p>
+          <p>© 2025 Паркетные работы в Крыму. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности

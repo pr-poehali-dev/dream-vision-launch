@@ -33,7 +33,12 @@ export function Header() {
     >
       <nav className="container mx-auto px-6 flex items-center justify-between md:px-[24]">
         <a href="/" className="flex items-center gap-2 group text-white text-xl font-medium tracking-tight" onClick={scrollToTop}>
-          ПаркетМастер
+          <svg width="28" height="20" viewBox="0 0 3 2" className="rounded-sm flex-shrink-0">
+            <rect width="3" height="0.667" y="0" fill="#003DA5"/>
+            <rect width="3" height="0.667" y="0.667" fill="#FFFFFF"/>
+            <rect width="3" height="0.667" y="1.333" fill="#E4003A"/>
+          </svg>
+          Паркетные работы в Крыму
         </a>
 
         <ul className="hidden md:flex items-center gap-10 text-sm tracking-wide">
