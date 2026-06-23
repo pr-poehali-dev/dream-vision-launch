@@ -32,7 +32,7 @@ const projects = [
     category: "Укладка с подогревом",
     location: "Студия, 42 м²",
     year: "2024",
-    image: "/images/hously-4.png",
+    image: "https://cdn.poehali.dev/projects/1217ed65-88cc-409e-96ee-8322a5f64a63/bucket/66aabd8c-6511-40ec-8f03-606112274bf9.png",
   },
 ]
 
