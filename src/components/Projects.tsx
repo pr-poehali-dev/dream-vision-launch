@@ -8,7 +8,7 @@ const projects = [
     category: "Укладка дуба",
     location: "Квартира, 78 м²",
     year: "2024",
-    image: "/images/hously-1.png",
+    image: "https://cdn.poehali.dev/projects/1217ed65-88cc-409e-96ee-8322a5f64a63/bucket/77a3593e-f402-4f52-8aa1-1ad9d9fbcf82.jpg",
   },
   {
     id: 2,
