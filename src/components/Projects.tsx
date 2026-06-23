@@ -24,7 +24,7 @@ const projects = [
     category: "Перешлифовка и лак",
     location: "Квартира, 54 м²",
     year: "2023",
-    image: "/images/hously-3.png",
+    image: "https://cdn.poehali.dev/projects/1217ed65-88cc-409e-96ee-8322a5f64a63/bucket/a7a63a61-bac2-4785-afb7-486de74363cc.jpg",
   },
   {
     id: 4,
