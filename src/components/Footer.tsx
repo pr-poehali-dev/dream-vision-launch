@@ -50,18 +50,18 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="tel:+79001234567" className="hover:text-foreground transition-colors">
-                  +7 (900) 123-45-67
+                <a href="tel:+79787567020" className="hover:text-foreground transition-colors">
+                  +7 (978) 756-70-20
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/79001234567" className="hover:text-foreground transition-colors">
+                <a href="https://wa.me/79787567020" className="hover:text-foreground transition-colors">
                   WhatsApp
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Телеграм
+                <a href="https://vk.com/crimea_parket" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  ВКонтакте
                 </a>
               </li>
             </ul>
