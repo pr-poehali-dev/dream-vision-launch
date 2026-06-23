@@ -26,14 +26,7 @@ export function CallToAction() {
               Позвонить мастеру
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </a>
-            <a
-              href="https://max.vk.com/write/79787567020"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
-            >
-              Написать в MAX
-            </a>
+
             <a
               href="https://vk.com/crimea_parket"
               target="_blank"
