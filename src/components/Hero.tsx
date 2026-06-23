@@ -128,7 +128,7 @@ export function Hero() {
 
       <div
         ref={contentRef}
-        className="container mx-auto px-6 md:px-12 lg:pt-0 relative z-10 pb-0 pl-1 pr-1 pt-8 md:pt-0"
+        className="container mx-auto px-6 md:px-12 relative z-10 flex flex-col items-center justify-center min-h-screen"
         style={{
           willChange: "transform",
           transform: "translateY(0px)",
@@ -136,7 +136,7 @@ export function Hero() {
           transformStyle: "preserve-3d",
         }}
       >
-        <div className="mb-72 md:mb-60 lg:mb-80">
+        <div className="text-center">
           <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mb-0">{"Укладка паркета и ламината"}</p>
 
           <h1
